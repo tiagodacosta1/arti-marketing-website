@@ -1,9 +1,8 @@
 "use client"
 
 import { useState } from "react"
-import Image from "next/image"
 
-export default function CommunicationSection() {
+export default function AppPreview() {
     const [activeTab, setActiveTab] = useState("3-step")
 
     const tabs = [
@@ -40,16 +39,15 @@ export default function CommunicationSection() {
                 ))}
             </div>
 
-            {/* Tablet Mockup */}
+            {/* Live App Preview */}
             <div className="relative max-w-4xl mx-auto">
                 <div className="bg-[#1C1C1E] rounded-[2rem] p-4 md:p-6 overflow-hidden shadow-2xl">
-                    <div className="relative aspect-[4/3]">
-                        <Image
-                            src="/Group675.png"
-                            alt="Arti app interface showing communication grid"
-                            fill
-                            className="object-cover rounded-2xl"
-                            priority
+                    <div className="relative aspect-[4/3] rounded-2xl overflow-hidden">
+                        <iframe
+                            src="https://arti2.vercel.app/"
+                            className="absolute inset-0 w-full h-full border-0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowFullScreen
                         />
                     </div>
                 </div>

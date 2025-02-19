@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 
 const Header: React.FC = () => {
     return (
@@ -9,10 +10,10 @@ const Header: React.FC = () => {
             {/* Links and button on the right */}
             <div className="flex items-center space-x-6 ml-auto">
                 <nav className="hidden md:flex space-x-6 text-gray-700">
-                    <a href="#" className="hover:underline">What we offer</a>
-                    <a href="#" className="hover:underline">For who</a>
-                    <a href="#" className="hover:underline">Who we are</a>
-                    <a href="#" className="hover:underline">FAQ</a>
+                    <Link href="#" className="hover:underline">What we offer</Link>
+                    <Link href="#" className="hover:underline">For who</Link>
+                    <Link href="/WhoWeAre" className="hover:underline">Who we are</Link>
+                    <Link href="/FAQPage" className="hover:underline">FAQ</Link>
                 </nav>
                 <button className="border border-blue-500 text-blue-500 rounded-full px-6 py-2 hover:bg-blue-500 hover:text-white transition-colors">
                     Sign up

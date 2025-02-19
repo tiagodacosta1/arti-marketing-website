@@ -8,7 +8,7 @@ interface FAQItem {
     answer: string
 }
 
-export default function FAQSection() {
+export default function FAQPage() {
     const [openIndex, setOpenIndex] = useState<number | null>(null)
 
     const faqItems: FAQItem[] = [

@@ -6,6 +6,7 @@ import ThreeStepApproach from "./ThreeStepApproach";
 import HighlightedFeatures from "./HighlightedFeatures";
 import Hero from "./Hero";
 import Features from "./Features";
+import FeaturesThreeRows from "./FeaturesThreeRows";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <LandingMoreInfo />
       <ThreeStepApproach />
       <HighlightedFeatures />
+      <FeaturesThreeRows></FeaturesThreeRows>
       <UserTypeSection />
       <EmailForm />
       <FAQSection />

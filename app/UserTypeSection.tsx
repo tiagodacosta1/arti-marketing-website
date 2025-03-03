@@ -8,10 +8,10 @@ export default function UserTypeSection() {
             <div className="grid md:grid-cols-2 gap-8 items-center">
                 <div className="md:order-2">
                     <div className="inline-block px-3 py-1 mb-4 text-sm bg-[#FAFDD5] rounded-full">Individual users</div>
-                    <h2 className="text-3xl md:text-4xl font-bold mb-4">Empower Nonverbal Communication</h2>
+                    <h2 className="text-3xl md:text-4xl  mb-4">Empower Nonverbal Communication</h2>
                     <p className="text-gray-700 mb-6 text-lg">
                         Arti helps nonverbal individuals express themselves more effectively. Parents and carers can easily
-                        personalise communication tiles to match their loved one's interests, promoting clearer interactions and
+                        personalise communication tiles to match their loved one&apos;s interests, promoting clearer interactions and
                         greater independence in daily life.
                     </p>
                     <button className="bg-blue-500 text-white px-8 py-3 rounded-full hover:bg-blue-600 transition-colors">
@@ -34,7 +34,7 @@ export default function UserTypeSection() {
             <div className="grid md:grid-cols-2 gap-8 items-center">
                 <div>
                     <div className="inline-block px-3 py-1 mb-4 text-sm bg-[#FAFDD5] rounded-full">Educational users</div>
-                    <h2 className="text-3xl md:text-4xl font-bold mb-4">Transforming Communication in the Classroom</h2>
+                    <h2 className="text-3xl md:text-4xl  mb-4">Transforming Communication in the Classroom</h2>
                     <p className="text-gray-700 mb-6 text-lg">
                         Arti allows teachers to create and manage personalised communication dashboards for their students. With
                         real-time updates, educators can adjust tiles to meet individual needs, ensuring effective communication in

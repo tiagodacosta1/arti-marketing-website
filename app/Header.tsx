@@ -18,7 +18,7 @@ export default function Nav() {
 
                     {/* Logo - centered on mobile */}
                     <div className="flex-1 flex justify-center md:justify-start">
-                        <Link href="/" className="text-xl font-bold text-black">
+                        <Link href="/" className="text-xl  text-black">
                             Arti
                         </Link>
                     </div>

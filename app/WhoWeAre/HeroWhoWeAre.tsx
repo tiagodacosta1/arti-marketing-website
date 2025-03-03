@@ -7,11 +7,11 @@ export default function HeroWhoWeAre() {
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                     {/* Left column - Text content */}
                     <div className="space-y-6">
-                        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
+                        <h2 className="text-4xl md:text-5xl lg:text-6xl  leading-tight">
                             Empowering Communication, <span className="block">One Tile at a Time.</span>
-                        </h1>
+                        </h2>
                         <p className="text-lg md:text-xl text-gray-600 max-w-lg">
-                            Discover how we're changing communication for those with speech challenges
+                            Discover how we&apos;re changing communication for those with speech challenges
                         </p>
                     </div>
 

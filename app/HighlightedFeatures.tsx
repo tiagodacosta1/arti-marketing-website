@@ -27,21 +27,21 @@ export default function AppPreview() {
 
     const tabContent: TabContent = {
         "3-step": {
-            image: "/placeholder.svg?height=600&width=800",
+            image: "/image1.svg",
             alt: "3-step communication approach visualization",
             title: "Intuitive 3-Step Communication",
             description:
                 "Arti empowers nonverbal individuals to communicate using a simple 3-step approach. Users select a subject, choose an action, and pick an object, allowing them to form clear sentences. This enhances their expression and benefits everyone involved, including unfamiliar listeners. For more advanced users, this can be toggled off.",
         },
         ai: {
-            image: "/placeholder.svg?height=600&width=800",
+            image: "/image2.svg",
             alt: "AI-Powered Sentence Enhancement interface",
             title: "AI-Powered Sentence Enhancement",
             description:
                 'Arti\'s AI-driven technology enhances sentence structure by adding filler words automatically. This helps users communicate more clearly and naturally. For example, Arti turns "I want toilet" into "I want to go to the toilet," making the user\'s message clearer.',
         },
         dashboard: {
-            image: "/placeholder.svg?height=600&width=800",
+            image: "/image3.svg",
             alt: "Parent & Teacher Dashboard overview",
             title: "Manage and Personalise Communication",
             description:
@@ -52,7 +52,7 @@ export default function AppPreview() {
     return (
         <section className="max-w-7xl mx-auto px-4 sm:p-12 py-16 md:py-24">
             <div className="max-w-3xl mx-auto text-center mb-12">
-                <h1 className="text-4xl md:text-5xl font-bold mb-6">{tabContent[activeTab].title}</h1>
+                <h2 className="text-4xl md:text-5xl  mb-6">{tabContent[activeTab].title}</h2>
                 <p className="text-gray-600 text-lg leading-relaxed">{tabContent[activeTab].description}</p>
             </div>
 
@@ -115,7 +115,7 @@ export default function AppPreview() {
 //     return (
 //         <section className="max-w-7xl mx-auto px-4 sm:p-12 py-16 md:py-24">
 //             <div className="max-w-3xl mx-auto text-center mb-12">
-//                 <h1 className="text-4xl md:text-5xl font-bold mb-6">Intuitive 3-Step Communication</h1>
+//                 <h1 className="text-4xl md:text-5xl  mb-6">Intuitive 3-Step Communication</h1>
 //                 <p className="text-gray-600 text-lg leading-relaxed">
 //                     Arti empowers nonverbal individuals to communicate using a simple 3-step approach. Users select a subject,
 //                     choose an action, and pick an object, allowing them to form clear sentences. This enhances their expression

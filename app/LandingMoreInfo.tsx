@@ -9,7 +9,7 @@ export default function LandingMoreInfo() {
             {/* Educational Users Section */}
             <div className="grid md:grid-cols-2 gap-8 items-center">
                 <div className="max-w-md">
-                    <h2 className="text-3xl md:text-4xl font-bold mb-4">Transforming Communication in the Classroom</h2>
+                    <h2 className="text-3xl md:text-4xl  mb-4">Transforming Communication in the Classroom</h2>
                     <p className="text-gray-700 mb-6 text-lg">
                         {`Explore how Arti’s intuitive interface transforms the communication experience for nonverbal individuals. Each step in our process is designed to empower users, ensuring they can effectively express their needs and feelings. With a focus on user-friendly design, Arti encourages confident interaction in every setting.`}
                     </p>

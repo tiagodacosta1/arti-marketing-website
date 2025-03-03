@@ -18,7 +18,7 @@ const Hero: React.FC = () => {
         // Here you would typically send the form data to your backend
         // For example using fetch or axios
 
-        // Show success message
+        // Show success messages
         alert("Thank you for signing up for early access! We'll be in touch soon.")
         closeModal()
     }
@@ -34,7 +34,7 @@ const Hero: React.FC = () => {
             </div>
 
 
-            <h1 className="leading-[1.2] md:leading-[1.2] text-4xl md:text-5xl font-bold ">
+            <h1 className="leading-[1.2] md:leading-[1.2] text-4xl md:text-5xl  ">
                 Empowering{" "}
                 <span className="relative z-10 after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[4px] after:bg-green-500 after:-skew-y-1">
                     Communication
@@ -67,7 +67,7 @@ const Hero: React.FC = () => {
                             <X size={24} />
                         </button>
 
-                        <h2 className="text-2xl font-bold mb-6">Sign up for early access</h2>
+                        <h2 className="text-2xl  mb-6">Sign up for early access</h2>
 
                         <form onSubmit={handleSubmit} className="space-y-4">
                             <div className="space-y-2">

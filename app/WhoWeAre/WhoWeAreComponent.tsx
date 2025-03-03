@@ -17,7 +17,7 @@ export default function WhoWeAreComponent() {
                     </div>
 
                     <div className="space-y-6">
-                        <h2 className="text-2xl font-bold tracking-tight md:text-3xl lg:text-4xl">Who We Are</h2>
+                        <h2 className="text-2xl  tracking-tight md:text-3xl lg:text-4xl">Who We Are</h2>
                         <div className="space-y-6 text-gray-700">
                             <p>
                                 Arti Speech was born out of a personal mission to make communication easier for individuals with speech

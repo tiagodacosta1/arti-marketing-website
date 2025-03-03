@@ -15,8 +15,8 @@ const EmailForm: React.FC = () => {
                 />
             </div>
             <div className="flex flex-col items-center text-center justify-center space-y-6 md:space-y-12 bg-white py-8 md:py-12 px-4 md:px-8 rounded-3xl">
-                <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold">Stay Connected with Arti</h1>
-                <h2 className="text-lg md:text-xl lg:text-2xl">Sign up to receive updates, exclusive offers, and more!</h2>
+                <h2 className="text-2xl md:text-3xl lg:text-4xl ">Stay Connected with Arti</h2>
+                <p>Sign up to receive updates, exclusive offers, and more!</p>
                 <form className="w-full max-w-4xl">
                     <div className="flex flex-col lg:flex-row space-y-4 lg:space-y-0 lg:space-x-4">
                         <input

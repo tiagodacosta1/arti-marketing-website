@@ -3,7 +3,7 @@ import Image from "next/image"
 export default function ComparisonSection() {
     return (
         <div className="max-w-7xl mx-auto px-4 py-12">
-            <h2 className="text-4xl font-bold mb-16">How We're Different</h2>
+            <h2 className="text-4xl  mb-16">How We're Different</h2>
 
             <div className="grid grid-cols-12 gap-8">
                 {/* Others Column */}
@@ -40,14 +40,14 @@ export default function ComparisonSection() {
                             height={40}
                             className="mb-8"
                         /> */}
-                        <h2 className="text-3xl font-bold text-black">
+                        <h2 className="text-3xl  text-black">
                             Arti
                         </h2>
 
                         <div className="grid gap-2">
                             <h4 className="text-blue-500 font-medium">Customisable Tiles</h4>
                             <p className="text-gray-900">
-                                Personalise communication with tiles that reflect the user's unique world.
+                                Personalise communication with tiles that reflect the user&apos;s unique world.
                             </p>
                         </div>
 
@@ -69,7 +69,7 @@ export default function ComparisonSection() {
                         <div className="grid gap-2">
                             <h4 className="text-blue-500 font-medium">Affordable for All</h4>
                             <p className="text-gray-900">
-                                High-quality AAC shouldn't break the bank. Arti Speech offers accessible pricing for families and
+                                High-quality AAC shouldn&apos;t break the bank. Arti Speech offers accessible pricing for families and
                                 schools alike.
                             </p>
                         </div>

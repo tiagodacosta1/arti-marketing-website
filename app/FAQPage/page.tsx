@@ -80,14 +80,14 @@ export default function FAQPage() {
                 <div className="grid md:grid-cols-2 gap-12">
                     {/* Left Column */}
                     <div className="space-y-6">
-                        <h1 className="text-3xl sm:text-4xl font-bold relative inline-block">
+                        <h2 className="text-3xl sm:text-4xl  relative inline-block">
                             <span className="inline-block">Frequently</span> <br />
                             <span className="inline-block">Asked</span> <br />
                             <span className="relative inline-block">
                                 Questions
                                 <span className="absolute -bottom-1 left-0 w-full h-1 bg-[#0095FF] origin-left transform -skew-y-2"></span>
                             </span>
-                        </h1>
+                        </h2>
                         <p className="text-gray-600 max-w-md">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
                             dolore magna aliqua.

@@ -80,7 +80,7 @@ export default function FAQSection() {
                 <div className="grid md:grid-cols-2 gap-12">
                     {/* Left Column */}
                     <div className="space-y-6">
-                        <h1 className="text-3xl sm:text-4xl font-bold relative inline-block">
+                        <h1 className="text-3xl sm:text-4xl  relative inline-block">
                             <span className="inline-block">Frequently</span> <br />
                             <span className="inline-block">Asked</span> <br />
                             <span className="relative inline-block">

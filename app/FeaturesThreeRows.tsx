@@ -27,7 +27,7 @@ export default function Features() {
 
     return (
         <div className="overflow-hidden w-full py-10 space-y-10">
-            <h2 className="text-xl font-bold text-left mb-8 ml-6 relative">
+            <h2 className="text-xl  text-left mb-8 ml-6 relative">
                 <span className="relative z-10 inline-block">
                     More from Arti!
                     <span className="absolute left-0 bottom-[-4px] w-full h-[2px] bg-blue-500 origin-left transform -skew-y-2"></span>

@@ -32,13 +32,13 @@ export default function ThreeStepApproach() {
             <div className="container max-w-6xl mx-auto flex flex-col lg:flex-row gap-8 lg:gap-12 items-center">
                 {/* Text Content */}
                 <div className="flex-1 text-center lg:text-left space-y-6 lg:space-y-8">
-                    <h1 className="text-3xl sm:text-4xl font-bold relative inline-block">
+                    <h2 className="text-3xl sm:text-4xl  relative inline-block">
                         <span className="relative inline-block mr-2">
                             3-step
                             <span className="absolute -bottom-1 left-0 w-full h-1 bg-[#0095FF] origin-left transform -skew-y-2"></span>
                         </span>
                         approach
-                    </h1>
+                    </h2>
 
                     <div className="space-y-8 lg:space-y-12">
                         <div className="space-y-2">
@@ -58,7 +58,7 @@ export default function ThreeStepApproach() {
                         <div className="space-y-2">
                             <h2 className="text-lg sm:text-xl font-semibold">2. Action</h2>
                             <p className="text-sm sm:text-base text-gray-700">
-                                Choose an action or category. Whether you're talking about food, feelings, or activities, this step
+                                Choose an action or category. Whether you&apos;re talking about food, feelings, or activities, this step
                                 helps shape the sentence.
                             </p>
                             <div className="w-full h-0.5 bg-red-200 mt-4 rounded-full overflow-hidden">

@@ -1,9 +1,8 @@
-import Image from "next/image"
 
 export default function ComparisonSection() {
     return (
         <div className="max-w-7xl mx-auto px-4 py-12">
-            <h2 className="text-4xl  mb-16">How We're Different</h2>
+            <h2 className="text-4xl  mb-16">How We&apos;re Different</h2>
 
             <div className="grid grid-cols-12 gap-8">
                 {/* Others Column */}

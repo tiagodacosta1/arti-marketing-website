@@ -21,7 +21,7 @@ export default function WhoWeAreComponent() {
                         <div className="space-y-6 text-gray-700">
                             <p>
                                 Arti Speech was born out of a personal mission to make communication easier for individuals with speech
-                                challenges. The inspiration came from the founder's experience with his nonverbal sister, diagnosed with
+                                challenges. The inspiration came from the founder&apos;s experience with his nonverbal sister, diagnosed with
                                 autism at three. Her daily struggles with communication sparked the creation of Arti Speech — an app
                                 designed to bridge the gap for families, caregivers, and educators alike.
                             </p>

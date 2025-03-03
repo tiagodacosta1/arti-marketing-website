@@ -3,7 +3,7 @@ import Group728 from "../public/Group728.png"
 
 export default function LandingMoreInfo() {
     return (
-        <section className="max-w-7xl mx-auto px-12 py-16 space-y-24">
+        <section className="max-w-7xl mx-auto px-4 sm:px-12 py-16 space-y-24">
 
 
             {/* Educational Users Section */}

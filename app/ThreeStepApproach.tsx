@@ -28,7 +28,7 @@ export default function ThreeStepApproach() {
     }, [])
 
     return (
-        <div className="bg-[#FFF1F1] min-h-screen p-4 sm:p-8 flex items-center justify-center">
+        <div className="bg-[#FFF1F1] min-h-screen p-4 sm:p-12 flex items-center justify-center">
             <div className="container max-w-6xl mx-auto flex flex-col lg:flex-row gap-8 lg:gap-12 items-center">
                 {/* Text Content */}
                 <div className="flex-1 text-center lg:text-left space-y-6 lg:space-y-8">

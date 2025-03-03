@@ -75,19 +75,21 @@ export default function FAQSection() {
     ]
 
     return (
-        <section className="py-16 px-4 md:px-8">
+        <section className="py-16 px-4 sm:px-12">
             <div className="max-w-7xl mx-auto">
                 <div className="grid md:grid-cols-2 gap-12">
                     {/* Left Column */}
                     <div className="space-y-6">
-                        <h2 className="text-4xl md:text-5xl font-bold relative inline-block">
-                            Frequently
-                            <br />
-                            Asked
-                            <br />
-                            Questions
-                            <div className="absolute bottom-1 left-0 w-full h-2 bg-blue-500 -z-10"></div>
-                        </h2>
+                        <h1 className="text-3xl sm:text-4xl font-bold relative inline-block">
+                            <span className="inline-block">Frequently</span> <br />
+                            <span className="inline-block">Asked</span> <br />
+                            <span className="relative inline-block">
+                                Questions
+                                <span className="absolute -bottom-1 left-0 w-full h-1 bg-[#0095FF] origin-left transform -skew-y-2"></span>
+                            </span>
+                        </h1>
+
+
                         <p className="text-gray-600 max-w-md">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
                             dolore magna aliqua.

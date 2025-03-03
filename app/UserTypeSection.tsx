@@ -3,7 +3,7 @@ import Image from "next/image"
 
 export default function UserTypeSection() {
     return (
-        <section className="max-w-7xl mx-auto px-4 py-16 space-y-24">
+        <section className="max-w-7xl mx-auto p-4 sm:px-12 py-16 space-y-24">
             {/* Individual Users Section */}
             <div className="grid md:grid-cols-2 gap-8 items-center">
                 <div className="md:order-2">

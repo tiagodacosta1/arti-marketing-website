@@ -23,7 +23,7 @@ export default function Features() {
     const duplicateFeatures = [...features, ...features,]; // Duplicate for seamless scrolling
 
     return (
-        <div className="overflow-hidden w-full py-10 bg-gray-100">
+        <div className="overflow-hidden w-full py-10">
             <h2 className="text-xl font-bold text-left mb-8 ml-6 relative">
                 <span className="relative z-10 inline-block">
                     Our Features!
@@ -38,7 +38,7 @@ export default function Features() {
                     className="flex whitespace-nowrap"
                     initial={{ x: 0 }}
                     animate={{ x: "-50%" }}
-                    transition={{ repeat: Infinity, ease: "linear", duration: 20 }}
+                    transition={{ repeat: Infinity, ease: "linear", duration: 30 }}
                 >
                     {duplicateFeatures.map((feature, index) => (
                         <div

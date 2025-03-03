@@ -7,8 +7,8 @@ export default function ComparisonSection() {
 
             <div className="grid grid-cols-12 gap-8">
                 {/* Others Column */}
-                <div className="col-span-5 space-y-12 py-4">
-                    <h3 className="text-xl text-muted-foreground mb-8">Others</h3>
+                <div className="col-span-5 space-y-12 py-8">
+                    <h3 className="text-3xl text-muted-foreground mb-8">Others</h3>
 
                     <div className="space-y-12">
                         <div className="grid gap-2">
@@ -33,13 +33,16 @@ export default function ComparisonSection() {
                 {/* Arti Column */}
                 <div className="col-span-7 bg-[#EDF3FF] rounded-3xl p-8">
                     <div className="space-y-12">
-                        <Image
+                        {/* <Image
                             src="/Logo.png"
                             alt="Arti Logo"
                             width={100}
                             height={40}
                             className="mb-8"
-                        />
+                        /> */}
+                        <h2 className="text-3xl font-bold text-black">
+                            Arti
+                        </h2>
 
                         <div className="grid gap-2">
                             <h4 className="text-blue-500 font-medium">Customisable Tiles</h4>
